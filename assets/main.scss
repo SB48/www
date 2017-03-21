@@ -1,0 +1,373 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$blue-l1: #d2e3f8;
+$blue-l2: #3273dc;
+$blue-l3: #285aaa;
+$blue-l4: #14325a;
+
+@font-face {
+	font-family: "FS Millbank";
+	src: url("fonts/FSMillbankNegativeWeb-Light.woff") format("woff");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "FS Millbank";
+	src: url("fonts/FSMillbankNegativeWeb-Bold.woff") format("woff");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "FS Millbank";
+	src: url("fonts/FSMillbankNegativeWeb-Italic.woff") format("woff");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "FS Millbank";
+	src: url("fonts/FSMillbankNegativeWeb-BoldItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+}
+
+body {
+	font-family: "FS Millbank", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	background-color: #fafafa;
+}
+
+.top-nav {
+	padding-top: 20px;
+	padding-bottom: 15px;
+  background-color: #3273dc;
+  box-shadow: 0 0 40px rgba(37,45,51, .5);
+}
+
+.btn-signup {
+	background-color: #14325a !important;
+	color: #efefef !important;
+}
+
+.btn-ih {
+	background-color: #3273dc !important;
+	color: #fff !important;
+}
+
+.section.top-section {
+	height: 700px;
+	background-color: #3273dc;
+
+  @media (max-width: 992px) {
+    background-color: #3273dc;
+    height: 300px;
+    margin-bottom: 5em;
+  }
+
+  @media (min-width: 321px) and (max-width: 414px) {
+    margin-bottom: 10em;
+  }
+
+  @media (max-width: 320px) {
+    margin-bottom: 12em;
+  }
+}
+
+.section.home {
+	margin-bottom: 200px;
+}
+
+.section {
+	padding: 3em 0;
+}
+
+.section:first-of-type {
+	margin-top: 4em;
+	padding-top: 2em;
+}
+
+.subheading {
+	color: #d2e3f8;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1em;
+  margin-bottom: 3em;
+}
+
+.cta-button {
+	margin-top: 2em;
+}
+
+.feature-item:first-of-type {
+	margin-top: 2em;
+}
+
+.feature-item {
+	margin-top: 4em;
+	text-align: center;
+}
+
+.feature-item {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #ccc;
+}
+
+.feature-item:last-of-type {
+  border-bottom-width: 0;
+}
+
+.feature-title {
+	font-weight: 500;
+	margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+.section.personas a {
+	color: #d2e3f8;
+	display: block;
+	padding: 2em;
+	border-radius: 10px;
+}
+
+.section.personas a:hover {
+	color: #d2e3f8;
+	text-decoration: none;
+	background-color: #285aaa;
+}
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link {
+	color: #efefef;
+  font-weight: 500;
+}
+
+.nav-item {
+  @media (min-width: 992px) {
+	  width: 7em;
+  }
+}
+
+.dropdown-toggle:after {
+	display: none;
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  left: 30px;
+  top: -16px;
+  display: block;
+  content: "\f0d8";
+  height: 16px;
+  width: 18px;
+  color: #fff;
+  font-family: 'FontAwesome';
+  font-size: 40px;
+  line-height: 26px;
+}
+
+.heading {
+	margin: .5em auto;
+}
+
+.section.personas {
+	margin: 0;
+	padding: 4em 0;
+	background-color: #3273dc;
+	color: #d2e3f8;
+}
+
+.persona-title {
+	margin: 1em 0;
+	color: #fff;
+	font-weight: 300;
+}
+
+.persona-icon {
+	color: #fff;
+}
+
+.feature-icon {
+	color: #285aaa;
+}
+
+.personas-header {
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.section.security {
+	background-color: #222;
+	color: #efefef;
+	margin: 0;
+	padding: 6em 0;
+}
+
+.section.security .sec-lo {
+  color: #ccc;
+}
+
+.section.security .sec-hi {
+	color: #efefef;
+  font-weight: 500;
+}
+
+.section.footer {
+	color: #666;
+	padding: 0;
+
+	.container {
+		border-top: 1px solid #ddd;
+		padding-top: 1em;
+	}
+
+  a {
+    color: #666;
+  }
+
+  li {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+  i.fa {
+    color: #999;
+  }
+}
+
+.section.contactus {
+	background-color: #efefef;
+}
+
+.section.features {
+	background-color: #fafafa;
+  color: #666;
+}
+
+
+.section.pricing {
+	margin-top: 2em;
+	padding-bottom: 4em;
+
+  &:first-of-type {
+    margin-top: 4.5em;
+    padding-top: 4em;
+    background-color: $blue-l2;
+    color: #fff;
+  }
+}
+
+.pricing .headline {
+}
+
+.pricing-plan {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.plan-name {
+  font-weight: 500;
+}
+
+.pricing-header {
+	text-align: center;
+  padding-top: 3em;
+}
+
+.pricing-plan-alt {
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.pricing-icon {
+	margin-bottom: .15em;
+  color: $blue-l3;
+}
+
+.price {
+  margin-bottom: 1em;
+}
+
+.pricing-features {
+}
+
+.pricing-separator {
+  color: #ddd;
+  background-color: #ddd;
+  height: 1px;
+  border: 0;
+}
+
+.dropdown-item {
+	font-weight: 300;
+  font-size: 85%;
+  margin: .5em auto;
+}
+
+.feature-disabled {
+	text-decoration: line-through;
+	color: #d2e3f8;
+}
+
+.persona-bg {
+	background-size: cover;
+}
+
+.persona-bg-doctor {
+	background: url(images/doctor.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+  @media (max-width: 992px) {
+    background: inherit;
+  }
+}
+
+.feature-item img {
+	border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.tagline {
+	position: absolute;
+	top: 250px;
+	width: 400px;
+	color: #fff;
+
+  h3 {
+    margin-bottom: 1em;
+  }
+
+  .btn-ih {
+    margin-top: 1em;
+    padding: 1em 3em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 992px) {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-top: 1em;
+    margin: auto auto;
+    padding: 4em 1em;
+    background-color: #14325a;
+    border-radius: 10px;
+  }
+}
+
+.contact-details {
+	color: #000;
+	margin-bottom: .25em;
+}
+
+.navbar-inverse .navbar-toggler {
+  border-color: transparent;
+}

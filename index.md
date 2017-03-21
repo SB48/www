@@ -115,7 +115,7 @@ Share and handover with your team
           </h4>
 				  <h4 class="persona-title"><strong class="font-weight-bold">Managers</strong></h4>
           <p>
-						Unlock the true potential of your teams, track all activities and reduce costs.
+						Unlock the potential of your teams, track all activities and reduce costs.
           </p>
         </a>
       </div>

@@ -1,0 +1,111 @@
+---
+layout: default
+title: About
+---
+
+<div class="section about">
+  <div class="container">
+
+    <div class="row mt-5">
+      <div class="col text-center">
+        <img src="assets/images/emblem.png" class="img-fluid rounded-circle" width="300">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="offset-md-3 col-md-6 text-center">
+        <p class="mt-5">
+  Infinity Health is committed to improving patient safety and clinical efficiency, by transforming the way healthcare professionals communicate and collaborate.</p>
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <h2 class="col text-center">Founders</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 offset-md-2 text-center">
+        <img src="assets/images/team/adam-benton.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Dr Adam Benton</h5>
+        <p>Founder & Medical Director</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/images/team/elliott-engers.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Elliott Engers</h5>
+        <p>Founder & CEO</p>
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <h2 class="col text-center">Engineering</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="assets/images/team/vinicius-horewicz.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Vinicius Horewicz</h5>
+        <p>Head of Engineering</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/images/team/ben-riazy.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Ben Riazy</h5>
+        <p>Lead iOS Developer</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/images/team/jack-reed.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Jack Reed</h5>
+        <p>Delivery Manager</p>
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <h2 class="col text-center">Growth</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/jo-garland.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Dr Jo Garland</h5>
+        <p>Clinical Lead</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/joan-lockwood.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Joan Lockwood</h5>
+        <p>Marketing Lead</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/david-hinkson.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">David Hinkson</h5>
+        <p>Commercial Lead</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/tom-king.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Tom King</h5>
+        <p>Communications Manager</p>
+      </div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <h2 class="col text-center">Board</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/laurie-wiseman.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Laurie Wiseman</h5>
+        <p>Chairman</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/martin-taylor.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Martin Taylor</h5>
+        <p>CFO</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/michael-benton.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Michael Benton</h5>
+        <p>Director</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="assets/images/team/karen-clarke.jpg" class="img-fluid rounded-circle" width="250">
+        <h5 class="mt-3">Karen Clarke</h5>
+        <p>Director</p>
+      </div>
+    </div>
+  </div>
+</div>

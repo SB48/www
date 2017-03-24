@@ -9,13 +9,13 @@ layout: page
     </h1>
 		<h4 class="subheading">
 			Collaboration and task management for modern healthcare teams.
-			<div><small class="font-italic">* Available on iPad, iPhone and Web</small></div>
 		</h4>
 		<img src="/assets/images/devices.png" class="img-fluid">
+    <div class="mt-1 text-center"><small class="font-italic">* Available on iPad, iPhone and Web</small></div>
   </div>
 </div>
 
-<div class="section features">
+<div class="section features features-index">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-3 text-center">
@@ -61,10 +61,10 @@ Share and handover with your team
 </p>
       </div>
     </div>
+    <p class="text-center cta-button">
+      <a href="/signup" class="btn btn-signup btn-ih-alt btn-lg">Sign up free</a>
+    </p>
   </div>
-  <p class="text-center cta-button">
-    <a href="/signup" class="btn btn-ih btn-lg">Sign up free</a>
-  </p>
 </div>
 
 <div class="section personas">
@@ -73,7 +73,7 @@ Share and handover with your team
 
     <div class="row">
       <div class="col-md-6 col-lg-3 text-center">
-			  <a href="/features">
+			  <a href="/features" class="feature-link">
           <h4>
 						<i class="fa fa-2x fa-stethoscope persona-icon"></i>
 				  </h4>
@@ -85,7 +85,7 @@ Share and handover with your team
       </div>
 
       <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features">
+        <a href="/features" class="feature-link">
           <h4>
 						<i class="fa fa-2x fa-medkit persona-icon"></i>
           </h4>
@@ -97,7 +97,7 @@ Share and handover with your team
       </div>
 
       <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features">
+        <a href="/features" class="feature-link">
           <h4>
 						<i class="fa fa-2x fa-sign-language persona-icon"></i>
           </h4>
@@ -109,16 +109,19 @@ Share and handover with your team
       </div>
 
       <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features">
+        <a href="/features" class="feature-link">
           <h4>
 						<i class="fa fa-2x fa-hospital-o persona-icon"></i>
           </h4>
 				  <h4 class="persona-title"><strong class="font-weight-bold">Managers</strong></h4>
           <p>
-						Unlock the potential of your teams, track all activities and reduce costs.
+						Unlock the potential of your teams and reduce costs.
           </p>
         </a>
       </div>
     </div>
+    <p class="text-center cta-button">
+      <a href="/signup" class="btn btn-ih btn-lg">Sign up free</a>
+    </p>
   </div>
 </div>

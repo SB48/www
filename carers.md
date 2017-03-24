@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<div class="section persona-bg persona-bg-doctor">
+<div class="section persona-bg persona-bg-carer">
   <div class="container">
     <div class="tagline tagline-alt">
       <h1 class="heading">

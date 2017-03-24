@@ -1,16 +1,76 @@
 <div class="section footer">
-  <div class="container text-center">
-		<p class="contact-details float-md-left">
-			Infinity Health, 45 Circus Rd, London, NW8 9JH
-    </p>
-		<p class="float-md-right">
-    	<i class="fa fa-fw fa-phone"></i> +44 203 637 5057
-			<i class="fa fa-fw fa-envelope"></i> hello@infinityhealth.io
-    </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/careers">Careers</a>
+          </li>
+          <li>
+            <a href="/legal">Legal</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li>
+            <a href="/doctors">Doctors</a>
+          </li>
+          <li>
+            <a href="/nurses">Nurses</a>
+          </li>
+          <li>
+            <a href="/carers">Carers</a>
+          </li>
+          <li>
+            <a href="/managers">Managers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li class="text-black">
+            Infinity Health
+          </li>
+          <li>
+            <i class="fa fa-fw fa-phone"></i> +44 203 637 5057
+          </li>
+          <li>
+            <i class="fa fa-fw fa-envelope"></i> <a href="mailto:hello@infinityhealth.io">hello@infinityhealth.io</a>
+          </li>
+          <li>
+            45 Circus Rd, London, NW8 9JH
+          </li>
+        </ul>
+
+      </div>
+    </div>
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 {% include intercom.html %}
+<script>
+$(function() {
+  $(".subscribe").on("click", function() {
+    var email = $(".email").val(),
+        data = JSON.stringify({ email: email });
+
+		if(email.length < 6) { return; }
+
+    $.post("https://vyevrkm1g0.execute-api.eu-west-1.amazonaws.com/production", data)
+			.always(function() {
+				$(".email").val("");
+				$(".lead-result").text("Thank you, we'll get back to you shortly.");
+			});
+	});
+});
+</script>

@@ -2,9 +2,9 @@
 layout: page
 ---
 
-<div class="section persona-bg persona-bg-doctor">
+<div class="section persona-bg persona-bg-nurse">
   <div class="container">
-    <div class="tagline tagline-alt">
+    <div class="tagline">
       <h1 class="heading">
         <img src="/assets/images/infinity.png" height="45">
       </h1>

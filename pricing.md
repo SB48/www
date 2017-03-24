@@ -60,7 +60,7 @@ layout: default
         <div class="price">
           <small class="text-muted">£99 per team / month</small>
         </div>
-        <a href="/signup" class="btn btn-ih btn-block">Start 3-month FREE trial</a>
+        <a href="/signup" class="btn btn-ih-alt btn-block">Start 3-month FREE trial</a>
       </div>
     </div>
     <div class="card">

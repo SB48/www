@@ -3,109 +3,23 @@ layout: default
 title: About
 ---
 
-<div class="section top-section">
+<div class="section about">
   <div class="container">
-    <h1 class="text-center">
-      About
-    </h1>
-  </div>
-</div>
 
-<div class="section">
-  <div class="container">
     <div class="row mt-5">
-      <div class="col-md-4 offset-md-2 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Adam Benton</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
+      <div class="col text-center">
+        <img src="assets/images/emblem.png" class="img-fluid rounded-circle" width="300">
       </div>
     </div>
 
-    <div class="row mt-5">
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Adam Benton</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
+    <div class="row">
+      <div class="offset-md-3 col-md-6 text-center">
+        <p class="mt-5">
+        Infinity Health is working with leading healthcare professionals and institutions in order to improve clinical safety and efficiency by transforming the way teams communicate, collaborate and manage tasks.
+        </p>
+
       </div>
     </div>
 
-    <div class="row mt-5">
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Adam Benton</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Adam Benton</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Adam Benton</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://unsplash.it/200/200/?random" class="img-fluid rounded-circle">
-        <h5 class="mt-3">Elliott Engers</h5>
-        <p>Co-founder</p>
-      </div>
-    </div>
   </div>
 </div>

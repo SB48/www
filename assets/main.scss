@@ -142,17 +142,30 @@ body {
   color: #333;
 }
 
-.section.personas a.feature-link {
+.section.personas a.persona-link {
 	color: #d2e3f8;
 	display: block;
 	padding: 2em;
 	border-radius: 10px;
 }
 
-.section.personas a.feature-link:hover {
+.section.personas a.persona-link:hover {
 	color: #d2e3f8;
 	text-decoration: none;
 	background-color: #285aaa;
+}
+
+.section.features a.feature-link {
+	color: #666 !important;
+	display: block;
+	padding: 2em;
+	border-radius: 10px;
+}
+
+.section.features a.feature-link:focus,
+.section.features a.feature-link:hover {
+	text-decoration: none;
+	background-color: #eee;
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover,
@@ -268,6 +281,7 @@ body {
 .section.features {
 	background-color: #fafafa;
   color: #666;
+	margin-top: 3em;
 }
 
 .section.pricing {
@@ -457,4 +471,11 @@ body {
 
 .padlock {
   max-width: 250px;
+}
+
+.anchor {
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+  visibility: hidden;
 }

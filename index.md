@@ -7,10 +7,10 @@ layout: page
     <h1 class="text-center heading">
       <img src="/assets/images/infinity.png" height="45">
     </h1>
-		<h4 class="subheading">
-			Collaboration and task management for modern healthcare teams.
-		</h4>
-		<img src="/assets/images/devices.png" class="img-fluid">
+    <h4 class="subheading">
+      Collaboration and task management for modern healthcare teams.
+    </h4>
+    <img src="/assets/images/devices.png" class="img-fluid">
     <div class="mt-1 text-center"><small class="font-italic">* Available on iPad, iPhone and Web</small></div>
   </div>
 </div>
@@ -19,50 +19,58 @@ layout: page
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-3 text-center">
+        <a href="/features#caseload" class="feature-link">
         <h4>
-					<i class="fa fa-2x fa-list feature-icon"></i>
-				</h4>
+          <i class="fa fa-2x fa-list feature-icon"></i>
+        </h4>
         <p class="feature-title">
-					Caseload
-				</p>
-				<p>Manage and prioritise your caseload</p>
+        Caseload
+        </p>
+        <p>Manage and prioritise your caseload</p>
+      </a>
       </div>
       <div class="col-md-6 col-lg-3 text-center">
+        <a href="/features#tasks" class="feature-link">
         <h4>
-					<i class="fa fa-2x fa-check-square-o feature-icon"></i>
-				</h4>
+          <i class="fa fa-2x fa-check-square-o feature-icon"></i>
+        </h4>
         <p class="feature-title">
-					Tasks
-				</p>
-<p>
-Create and track clinical tasks
-</p>
+        Tasks
+        </p>
+        <p>
+        Create and track clinical tasks
+        </p>
+        </a>
       </div>
       <div class="col-md-6 col-lg-3 text-center">
+        <a href="/features#collaboration" class="feature-link">
         <h4>
-					<i class="fa fa-2x fa-bell-o feature-icon"></i>
-				</h4>
+          <i class="fa fa-2x fa-users feature-icon"></i>
+        </h4>
         <p class="feature-title">
-					Notifications
-				</p>
-<p>
-Receive alerts and reminders
-</p>
+        Collaboration
+        </p>
+        <p>
+        Share and handover with your team
+        </p>
+        </a>
       </div>
       <div class="col-md-6 col-lg-3 text-center">
+        <a href="/features#notifications" class="feature-link">
         <h4>
-					<i class="fa fa-2x fa-users feature-icon"></i>
-				</h4>
+          <i class="fa fa-2x fa-bell-o feature-icon"></i>
+        </h4>
         <p class="feature-title">
-					Collaboration
-				</p>
-<p>
-Share and handover with your team
-</p>
+        Notifications
+        </p>
+        <p>
+        Receive alerts and reminders
+        </p>
+        </a>
       </div>
     </div>
     <p class="text-center cta-button">
-      <a href="/signup" class="btn btn-signup btn-ih-alt btn-lg">Sign up free</a>
+    <a href="/signup" class="btn btn-signup btn-ih-alt btn-lg">Sign up free</a>
     </p>
   </div>
 </div>
@@ -73,55 +81,55 @@ Share and handover with your team
 
     <div class="row">
       <div class="col-md-6 col-lg-3 text-center">
-			  <a href="/features" class="feature-link">
+        <a href="/doctors" class="persona-link">
           <h4>
-						<i class="fa fa-2x fa-stethoscope persona-icon"></i>
-				  </h4>
-				  <h4 class="persona-title"><strong class="font-weight-bold">Doctors</strong></h4>
-          <p>
-						Share the most critical tasks and information with your team.
-				  </p>
-				</a>
-      </div>
-
-      <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features" class="feature-link">
-          <h4>
-						<i class="fa fa-2x fa-medkit persona-icon"></i>
+            <i class="fa fa-2x fa-stethoscope persona-icon"></i>
           </h4>
-				  <h4 class="persona-title"><strong class="font-weight-bold">Nurses</strong></h4>
+          <h4 class="persona-title"><strong class="font-weight-bold">Doctors</strong></h4>
           <p>
-						Prioritise tasks and release more time to care for your patients.
+          Share the most critical tasks and information with your team.
           </p>
         </a>
       </div>
 
       <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features" class="feature-link">
+        <a href="/nurses" class="persona-link">
           <h4>
-						<i class="fa fa-2x fa-sign-language persona-icon"></i>
+            <i class="fa fa-2x fa-medkit persona-icon"></i>
           </h4>
-				  <h4 class="persona-title"><strong class="font-weight-bold">Carers</strong></h4>
+          <h4 class="persona-title"><strong class="font-weight-bold">Nurses</strong></h4>
           <p>
-						Share up-to-date care plans and collaborate to get things done.
+          Prioritise tasks and release more time to care for your patients.
           </p>
         </a>
       </div>
 
       <div class="col-md-6 col-lg-3 text-center">
-        <a href="/features" class="feature-link">
+        <a href="/carers" class="persona-link">
           <h4>
-						<i class="fa fa-2x fa-hospital-o persona-icon"></i>
+            <i class="fa fa-2x fa-sign-language persona-icon"></i>
           </h4>
-				  <h4 class="persona-title"><strong class="font-weight-bold">Managers</strong></h4>
+          <h4 class="persona-title"><strong class="font-weight-bold">Carers</strong></h4>
           <p>
-						Unlock the potential of your teams and reduce costs.
+          Share up-to-date care plans and collaborate to get things done.
+          </p>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3 text-center">
+        <a href="/managers" class="persona-link">
+          <h4>
+            <i class="fa fa-2x fa-hospital-o persona-icon"></i>
+          </h4>
+          <h4 class="persona-title"><strong class="font-weight-bold">Managers</strong></h4>
+          <p>
+          Unlock the potential of your teams and reduce costs.
           </p>
         </a>
       </div>
     </div>
     <p class="text-center cta-button">
-      <a href="/signup" class="btn btn-ih btn-lg">Sign up free</a>
+    <a href="/signup" class="btn btn-ih btn-lg">Sign up free</a>
     </p>
   </div>
 </div>

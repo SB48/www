@@ -58,19 +58,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 {% include intercom.html %}
-<script>
-$(function() {
-  $(".subscribe").on("click", function() {
-    var email = $(".email").val(),
-        data = JSON.stringify({ email: email });
-
-		if(email.length < 6) { return; }
-
-    $.post("https://vyevrkm1g0.execute-api.eu-west-1.amazonaws.com/production", data)
-			.always(function() {
-				$(".email").val("");
-				$(".lead-result").text("Thank you, we'll get back to you shortly.");
-			});
-	});
-});
-</script>

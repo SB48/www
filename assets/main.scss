@@ -8,63 +8,63 @@ $blue-l3: #285aaa;
 $blue-l4: #14325a;
 
 @font-face {
-	font-family: "FS Millbank";
-	src: url("fonts/FSMillbankNegativeWeb-Light.woff") format("woff");
-	font-weight: 300;
+  font-family: "FS Millbank";
+  src: url("fonts/FSMillbankNegativeWeb-Light.woff") format("woff");
+  font-weight: 300;
 }
 
 @font-face {
-	font-family: "FS Millbank";
-	src: url("fonts/FSMillbankNegativeWeb-Bold.woff") format("woff");
-	font-weight: 500;
+  font-family: "FS Millbank";
+  src: url("fonts/FSMillbankNegativeWeb-Bold.woff") format("woff");
+  font-weight: 500;
 }
 
 @font-face {
-	font-family: "FS Millbank";
-	src: url("fonts/FSMillbankNegativeWeb-Italic.woff") format("woff");
-	font-style: italic;
+  font-family: "FS Millbank";
+  src: url("fonts/FSMillbankNegativeWeb-Italic.woff") format("woff");
+  font-style: italic;
 }
 
 @font-face {
-	font-family: "FS Millbank";
-	src: url("fonts/FSMillbankNegativeWeb-BoldItalic.woff") format("woff");
-	font-weight: 500;
-	font-style: italic;
+  font-family: "FS Millbank";
+  src: url("fonts/FSMillbankNegativeWeb-BoldItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
 }
 
 body {
-	font-family: "FS Millbank", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	font-weight: 300;
-	background-color: #fafafa;
+  font-family: "FS Millbank", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  background-color: #fafafa;
   font-size: 14px;
 }
 
 .top-nav {
-	padding-top: 20px;
-	padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   background-color: #3273dc;
   box-shadow: 0 0 40px rgba(37,45,51, .5);
 }
 
 .btn-signup {
-	background-color: #14325a !important;
-	color: #efefef !important;
+  background-color: #14325a !important;
+  color: #efefef !important;
 }
 
 .btn-ih {
-	color: #3273dc !important;
-	background-color: #fff !important;
+  color: #3273dc !important;
+  background-color: #fff !important;
 }
 
 .btn-ih-alt {
-	background-color: #3273dc !important;
-	color: #fff !important;
+  background-color: #3273dc !important;
+  color: #fff !important;
 }
 
 .section.top-section {
-	height: 23em;
+  height: 23em;
   margin-bottom: 3em;
-	background-color: #3273dc;
+  background-color: #3273dc;
 
   @media (min-width: 375px) {
     height: 25em;
@@ -97,33 +97,33 @@ body {
 }
 
 .section {
-	padding: 3em 0;
+  padding: 3em 0;
 }
 
 .section:first-of-type {
-	margin-top: 4em;
-	padding-top: 2em;
+  margin-top: 4em;
+  padding-top: 2em;
 }
 
 .subheading {
-	color: #d2e3f8;
-	font-weight: 300;
-	text-align: center;
-	font-size: 1em;
+  color: #d2e3f8;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1em;
   margin-bottom: 2em;
 }
 
 .cta-button {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .feature-item:first-of-type {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .feature-item {
-	margin-top: 4em;
-	text-align: center;
+  margin-top: 4em;
+  text-align: center;
 }
 
 .feature-item {
@@ -136,41 +136,41 @@ body {
 }
 
 .feature-title {
-	font-weight: 500;
-	margin-top: 1.5em;
+  font-weight: 500;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
   color: #333;
 }
 
 .section.personas a.persona-link {
-	color: #d2e3f8;
-	display: block;
-	padding: 2em;
-	border-radius: 10px;
+  color: #d2e3f8;
+  display: block;
+  padding: 2em;
+  border-radius: 10px;
 }
 
 .section.personas a.persona-link:hover {
-	color: #d2e3f8;
-	text-decoration: none;
-	background-color: #285aaa;
+  color: #d2e3f8;
+  text-decoration: none;
+  background-color: #285aaa;
 }
 
 .section.features a.feature-link {
-	color: #666 !important;
-	display: block;
-	padding: 2em;
-	border-radius: 10px;
+  color: #666 !important;
+  display: block;
+  padding: 2em;
+  border-radius: 10px;
 }
 
 .section.features a.feature-link:focus,
 .section.features a.feature-link:hover {
-	text-decoration: none;
-	background-color: #eee;
+  text-decoration: none;
+  background-color: #eee;
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover,
 .navbar-inverse .navbar-nav .nav-link {
-	color: #efefef;
+  color: #efefef;
   font-weight: 500;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .dropdown-toggle:after {
-	display: none;
+  display: none;
 }
 
 .dropdown-menu:after {
@@ -204,42 +204,42 @@ body {
 }
 
 .heading {
-	margin: .5em auto;
+  margin: .5em auto;
   margin-bottom: .25em;
 }
 
 .section.personas {
-	margin: 0;
-	padding: 4em 0;
-	background-color: #3273dc;
-	color: #d2e3f8;
+  margin: 0;
+  padding: 4em 0;
+  background-color: #3273dc;
+  color: #d2e3f8;
 }
 
 .persona-title {
-	margin: 1em 0;
-	color: #fff;
-	font-weight: 300;
+  margin: 1em 0;
+  color: #fff;
+  font-weight: 300;
 }
 
 .persona-icon {
-	color: #fff;
+  color: #fff;
 }
 
 .feature-icon {
-	color: #285aaa;
+  color: #285aaa;
 }
 
 .personas-header {
-	font-weight: 600;
-	color: #fff;
-	margin-bottom: 1em;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1em;
 }
 
 .section.security {
-	background-color: #222;
-	color: #efefef;
-	margin: 0;
-	padding: 6em 0;
+  background-color: #222;
+  color: #efefef;
+  margin: 0;
+  padding: 6em 0;
 }
 
 .section.security .sec-lo {
@@ -247,18 +247,18 @@ body {
 }
 
 .section.security .sec-hi {
-	color: #efefef;
+  color: #efefef;
   font-weight: 500;
 }
 
 .section.footer {
-	color: #666;
+  color: #666;
   padding: 0;
 
-	.container {
-		border-top: 1px solid #ddd;
+  .container {
+    border-top: 1px solid #ddd;
     padding-top: 1em;
-	}
+  }
 
   a {
     color: #666;
@@ -275,17 +275,17 @@ body {
 }
 
 .section.contactus {
-	background-color: #efefef;
+  background-color: #efefef;
 }
 
 .section.features {
-	background-color: #fafafa;
+  background-color: #fafafa;
   color: #666;
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 .section.pricing {
-	padding-bottom: 2em;
+  padding-bottom: 2em;
 
   &:first-of-type {
     padding-top: 4em;
@@ -299,8 +299,8 @@ body {
 }
 
 .pricing-plan {
-	padding-top: 2em;
-	padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 .plan-name {
@@ -308,7 +308,7 @@ body {
 }
 
 .pricing-header {
-	text-align: center;
+  text-align: center;
   padding-top: 3em;
 }
 
@@ -319,7 +319,7 @@ body {
 }
 
 .pricing-icon {
-	margin-bottom: .15em;
+  margin-bottom: .15em;
   color: $blue-l3;
 }
 
@@ -335,14 +335,14 @@ body {
 }
 
 .dropdown-item {
-	font-weight: 300;
+  font-weight: 300;
   font-size: 85%;
   margin: .5em auto;
 }
 
 .feature-disabled {
-	text-decoration: line-through;
-	color: #d2e3f8;
+  text-decoration: line-through;
+  color: #d2e3f8;
 }
 
 .persona-bg {
@@ -392,18 +392,18 @@ body {
 }
 
 .feature-item img {
-	border: 1px solid #ccc;
+  border: 1px solid #ccc;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
 .tagline {
-	position: absolute;
-	top: 250px;
-	width: 405px;
-	color: #fff;
+  position: absolute;
+  top: 250px;
+  width: 405px;
+  color: #fff;
 
-	&.tagline-alt {
+  &.tagline-alt {
     right: 0;
     text-align: right;
   }
@@ -436,8 +436,8 @@ body {
 }
 
 .contact-details {
-	color: #000;
-	margin-bottom: .25em;
+  color: #000;
+  margin-bottom: .25em;
 }
 
 .navbar-inverse .navbar-toggler {
@@ -478,4 +478,9 @@ body {
   height: 100px;
   margin-top: -100px;
   visibility: hidden;
+}
+
+.social-icon {
+  text-align: left;
+  font-size: 1.5em;
 }

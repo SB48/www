@@ -11,18 +11,22 @@ layout: page
       Collaboration and task management for modern healthcare teams.
     </h4>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <div class="carousel-indicators">
+    <div class="hidden-md-up">
+      <h1>OMG</h1>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide hidden-sm-down" data-ride="carousel">
+      <div class="carousel-buttons">
         <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">Iphone</button>
         <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1">IPad</button>
         <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2">Desktop</button>
       </div>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="assets/images/iphone_notes.png" alt="Iphone App">
-          <img class="d-block img-fluid" src="assets/images/iphone_notifications.png" alt="Iphone App">
-          <img class="d-block img-fluid" src="assets/images/iphone_patients.png" alt="Iphone App">
-          <img class="d-block img-fluid" src="assets/images/iphone_tasks.png" alt="Iphone App">
+          <img class="d-block img-fluid iphone-image" src="assets/images/iphone_notes.png" alt="Iphone App">
+          <img class="d-block img-fluid iphone-image" src="assets/images/iphone_notifications.png" alt="Iphone App">
+          <img class="d-block img-fluid iphone-image" src="assets/images/iphone_patients.png" alt="Iphone App">
+          <img class="d-block img-fluid iphone-image hidden-md-down" src="assets/images/iphone_tasks.png" alt="Iphone App">
         </div>
         <div class="carousel-item">
           <img class="d-block img-fluid" src="..." alt="Second slide">
@@ -46,8 +50,15 @@ layout: page
   </div>
 </div>
 
-<div class="signup2">
-  <button type="button" class="nav-link btn btn-signup">Sign Up Free</button>
+<div class="section signup container">
+  <div class="row">
+    <div class="col-sm-6 text-center text-sm-left">
+      First 6 columns
+    </div>
+    <div class="col-sm-6 text-center text-sm-right">
+      <a href="/signup" class="btn btn-signup">Sign Up Free</a>
+    </div>
+  </div>
 </div>
 
 <br>

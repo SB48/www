@@ -62,38 +62,8 @@ body {
 }
 
 .section.top-section {
-  height: 23em;
   margin-bottom: 3em;
   background-color: #3273dc;
-
-  @media (min-width: 375px) {
-    height: 25em;
-  }
-
-  @media (min-width: 412px) {
-    height: 28em;
-    margin-bottom: 4em;
-  }
-
-  @media (min-width: 768px) {
-    height: 36em;
-    margin-bottom: 8em;
-  }
-
-  @media (min-width: 992px) {
-    height: 45em;
-    margin-bottom: 12em;
-  }
-
-  @media (min-width: 1024px) {
-    height: 45em;
-    margin-bottom: 12em;
-  }
-
-  @media (min-width: 1200px) {
-    height: 50em;
-    margin-bottom: 15em;
-  }
 }
 
 .carouselExampleIndicators {
@@ -102,24 +72,22 @@ body {
   }
 }
 
-
+.carousel-buttons {
+  text-align: center;
+}
 
 .carousel-inner img {
-  width: 25%;
   max-height: 550px;
 }
 
-button.nav-link.btn-signup {
-  font-family: inherit;
-  right: 0px;
-  float: right;
+.iphone-image {
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
 }
 
-
-/*div.signup2 {
-  color: #efefef;
-  font-weight: 500;
-}*/
+.section.signup {
+}
 
 .section {
   padding: 3em 0;

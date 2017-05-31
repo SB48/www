@@ -10,12 +10,50 @@ layout: page
     <h4 class="subheading">
       Collaboration and task management for modern healthcare teams.
     </h4>
-    <img src="/assets/images/devices.png" class="img-fluid">
-    <div class="mt-1 text-center"><small class="font-italic">* Available on iPad, iPhone and Web</small></div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">Iphone</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1">IPad</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2">Desktop</button>
+      </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="assets/images/iphone_notes.png" alt="Iphone App">
+          <img class="d-block img-fluid" src="assets/images/iphone_notifications.png" alt="Iphone App">
+          <img class="d-block img-fluid" src="assets/images/iphone_patients.png" alt="Iphone App">
+          <img class="d-block img-fluid" src="assets/images/iphone_tasks.png" alt="Iphone App">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="..." alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="..." alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--img src="/assets/images/devices.png" class="img-fluid">
+    <div class="mt-1 text-center"><small class="font-italic">* Available on iPad, iPhone and Web</small></div-->
   </div>
 </div>
 
-<div class="section features features-index">
+<div class="signup2">
+  <button type="button" class="nav-link btn btn-signup">Sign Up Free</button>
+</div>
+
+<br>
+<br>
+
+<!--div class="section features features-index">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-3 text-center">
@@ -73,7 +111,7 @@ layout: page
     <a href="/signup" class="btn btn-signup btn-ih-alt btn-lg">Sign up free</a>
     </p>
   </div>
-</div>
+</div-->
 
 <div class="section personas">
   <div class="container">

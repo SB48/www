@@ -2,14 +2,14 @@
 layout: page
 ---
 
-<div class="section persona-bg persona-bg-surgeon">
+<div class="section persona-bg">
   <div class="container">
-    <div class="tagline">
+    <div class="tagline2 text-center">
       <h1 class="heading">
         <img src="/assets/images/infinity.png" height="45">
       </h1>
       <p>
-        Collaboration and task management for modern healthcare teams.
+        Secure collaboration and task management for modern healthcare teams.
       </p>
       <a class="btn btn-lg btn-ih-alt" href="/signup">Sign up free</a>
     </div>

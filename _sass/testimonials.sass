@@ -1,0 +1,43 @@
+.testimonials
+  +make-container
+//needs to be made fluid still!!
+
+.testimonial-content
+  +make-row
+
+.testimonial-picquote
+  +make-col-ready
+  +make-col(12)
+  +media-breakpoint-up(md)
+    +make-col(4)
+
+.testimonial-pic
+  +make-col-ready
+  +make-col(1)
+  +media-breakpoint-up(sm)
+    +make-col(2)
+  +media-breakpoint-down(md)
+    +make-col(4)
+  +media-breakpoint-down(lg)
+    +make-col(5)
+  text-align: center 
+
+.testimonial-quote
+  +make-col-ready
+  +make-col(11)
+  +media-breakpoint-up(sm)
+    +make-col(10)
+  +media-breakpoint-down(md)
+    +make-col(7)
+  +media-breakpoint-down(lg)
+    +make-col(5)
+
+  text-align: center
+  +media-breakpoint-up(lg)
+    text-align: left
+
+.signup
+  +make-row
+
+.signupfull
+  +make-col(12)

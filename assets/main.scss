@@ -2,10 +2,41 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "testimonials";
+
 $blue-l1: #d2e3f8;
 $blue-l2: #3273dc;
 $blue-l3: #285aaa;
 $blue-l4: #14325a;
+
+.hero-screenshot {
+  display: block;
+
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.device-carousel {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+
+.hideimage {
+  display: block;
+
+  @include media-breakpoint-down(md) {
+    display:none;
+    visibility: hidden;
+  }
+}
+
+
 
 @font-face {
   font-family: "FS Millbank";
@@ -66,18 +97,95 @@ body {
   background-color: #3273dc;
 }
 
+/* SOPHIE'S CSS EDITS BEGIN*/
+
+.photos img {
+  height: auto;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.testimonial-pic img {
+  width: 5em;
+  height: 5em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.photos .row {
+  text-align: center;
+}
+
 .carouselExampleIndicators {
   @media (min-width: 550px) {
     background-image: url(assets/images/iphone_tasks.png)
   }
 }
 
+.collab {
+  font-weight: 400;
+  font-size: medium;
+  text-align: center;
+}
+
+.signup2 {
+  @media (min-width: 1024px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  @media (min-width: 1441px) {
+    padding-left: 27% ;
+    padding-right: 27%;
+  }
+
+}
+
+.carousel-buttons button {
+/*  background-color: rgb(45, 96, 179);  #3273dc   #14325a*/
+  background-color: #ffffff;
+  color: #3273dc;
+  font-family: inherit;
+  padding: 5px 7px !important;
+  font-weight: 400 !important;
+  font-size: medium;
+  -webkit-transition-duraction: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.carousel-buttons:hover button{
+  border-color: #3273dc;
+  border-style: solid;
+}
+
+.signup3 {
+  text-align: center !important;
+}
+
+.testimonialpic {
+  overflow: hidden;
+  width: 14vw;
+  height: 14vw;
+  text-align: center;
+  float: center;
+}
+
+
+.tagline2 {
+  top: 250px;
+  color: #fff;
+  text-align: center !important;
+  position: relative;
+}
+
+
 .carousel-buttons {
   text-align: center;
 }
 
 .carousel-inner img {
-  max-height: 550px;
+  height: 391.11px;
+
 }
 
 .iphone-image {
@@ -86,12 +194,31 @@ body {
   margin: auto;
 }
 
-.section.signup {
+.ipad-image {
+  max-width: 420px;
+  height:391.11px;
+  margin: auto;
 }
 
+.desktop-image {
+  height: 391.11px;
+  text-align: center;
+  float: none;
+  margin: auto;
+
+}
+
+/* SOPHIE'S CSS EDITS END*/
+
+.section.signup {
+  float: none;
+}
+
+/*
 .section {
   padding: 3em 0;
 }
+*/
 
 .section:first-of-type {
   margin-top: 4em;
@@ -137,9 +264,19 @@ body {
 
 .section.personas a.persona-link {
   color: #d2e3f8;
+  padding-bottom: 2em;
+  padding-top: 2em;
   display: block;
-  padding: 2em;
   border-radius: 10px;
+}
+
+.testimonial-quote,
+.testimonial-pic {
+  text-align: center;
+}
+
+.testimonial-quote {
+
 }
 
 .section.personas a.persona-link:hover {

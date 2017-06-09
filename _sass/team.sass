@@ -3,6 +3,8 @@
 
 .team
   +make-container
+  +media-breakpoint-up(lg)
+    margin-left: 5em
 
 .team-content
   +make-row
@@ -26,3 +28,17 @@
 .team-text
   +make-col-ready
   +make-col(8)
+
+.team-social
+  color: #999999
+  font-size: 1.5em
+
+.team-picname, .team-coders
+  +media-breakpoint-down (md)
+    padding: 1em
+  +media-breakpoint-up(md)
+    padding-bottom: 2em
+
+.team-img
+  width: 7em
+  height: 7em

@@ -15,6 +15,6 @@ layout: default
   <a href="mailto:hello@infinityhealth.io">Drop us a line</a> if you would like to discuss infinity.
   </div>
   </div>
+  <br>
 </div>
 </div>
-

@@ -26,4 +26,6 @@ title: About
 
 <br>
 
+<hr class="line-break">
+
 {% include team.html %}

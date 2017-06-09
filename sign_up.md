@@ -19,7 +19,7 @@ permalink: /signup
           Infinity is currently available for free on <strong>iPhone</strong>, <strong>iPad</strong> and <strong>iPod Touch</strong> and will soon be available for <strong>Web</strong> browsers.<br>
         </p>
         <p>
-          Our support team is on hand to help with any queries regarding implementation or information governance.<br>Feel free to get in touch using the form below
+          Our support team is on hand to help with any queries regarding implementation or information governance.
         </p>
         <p>
           Feel free to get in touch using the form below

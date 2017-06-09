@@ -1,0 +1,68 @@
+//carousel sass
+
+
+.hero-screenshot
+  display: block
+
+  @include media-breakpoint-up(md)
+    display: none
+
+.device-carousel
+  display: none
+
+  @include media-breakpoint-up(md)
+    display: block
+
+
+.hideimage
+  display: block
+
+  @include media-breakpoint-down(md)
+    display:none
+    visibility: hidden
+
+
+.carousel-button
+  background-color: #ffffff
+  color: #3273dc
+  font-family: inherit
+  padding: 5px 7px !important
+  font-weight: 400 !important
+  font-size: medium
+  -webkit-transition-duration: 0.4s
+  transition-duration: 0.4s
+
+
+.carouselExampleIndicators
+  @media (min-width: 550px)
+    background-image: url(assets/images/iphone_tasks.png)
+
+
+
+.carousel-button:hover
+  border-color: #3273dc
+  border-style: solid
+
+
+.carousel-buttons
+  text-align: center
+
+
+.carousel-image
+  height: 391.11px
+  margin: auto
+
+
+.iphone-image
+  width: 100%
+  max-width: 220px
+
+.ipad-image
+  max-width: 420px
+
+
+.desktop-image
+  height: 391.11px
+  text-align: center
+  float: none
+  margin: auto

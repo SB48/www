@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="section persona-bg">
+<div class="section persona-bg-features">
   <div class="container">
     <div class="tagline2 text-center">
       <h1 class="heading">
@@ -17,3 +17,4 @@ layout: page
 </div>
 
 {% include features.html %}
+{% include security.html %}

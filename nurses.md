@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 <div class="section persona-bg persona-bg-nurse">
@@ -60,3 +60,4 @@ layout: page
 		</div>
 	</div>
 </div>
+{% include security.html %}

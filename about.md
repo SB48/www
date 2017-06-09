@@ -15,11 +15,15 @@ title: About
     <div class="row">
       <div class="offset-md-3 col-md-6 text-center">
         <p class="mt-5">
+        <h2>Our Team</h2>
         Infinity Health is working with leading healthcare professionals and institutions in order to improve clinical safety and efficiency by transforming the way teams communicate, collaborate and manage tasks.
         </p>
-
       </div>
     </div>
 
   </div>
 </div>
+
+<br>
+
+{% include team.html %}

@@ -7,12 +7,15 @@
 @import "testimonials";
 @import "team";
 @import "carousel";
+@import "nav";
+@import "signup2";
+@import "vendor/animate/_properties";
+@import "vendor/animate/_attention-seekers/_pulse";
 
 $blue-l1: #d2e3f8;
 $blue-l2: #3273dc;
 $blue-l3: #285aaa;
 $blue-l4: #14325a;
-
 
 @font-face {
   font-family: "FS Millbank";
@@ -44,59 +47,53 @@ body {
   font-weight: 300;
   background-color: #fafafa;
   font-size: 14px;
-}
-
-.top-nav {
-  padding-top: 20px;
-  padding-bottom: 15px;
-  background-color: #3273dc;
-  box-shadow: 0 0 40px rgba(37,45,51, .5);
-}
-
-.btn-signup {
-  background-color: #14325a !important;
-  color: #efefef !important;
-}
-
-.btn-ih {
-  color: #3273dc !important;
-  background-color: #fff !important;
-}
-
-.btn-ih-alt {
-  background-color: #3273dc !important;
-  color: #fff !important;
-}
-
-.section.top-section {
-  margin-bottom: 3em;
-  background-color: #3273dc;
+  height: 100%;
 }
 
 /* SOPHIE'S CSS EDITS BEGIN*/
 
+.signup2-button, .nav-signup {
+  @include pulse()
+}
+
+.signup-text {
+  margin-top: 3.5rem !important
+}
+
+.signup-img {
+  margin-top: 1.5rem !important
+}
+
+.team-link {
+  display: inline-block;
+  color: black;
+  text-decoration: none !important;
+}
+
+.team-link:hover {
+    color: black !important;
+}
+
+.team-content:hover {
+  .team-link:after {
+      transition: width .5s ease, background-color .5s ease;
+      width: 100%;
+      background: black;
+    }
+}
+
+.team-link:after {
+  content: '';
+  display: table;
+  margin-bottom: 2em;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+}
+
 .line-break {
   width: 50%;
-  size: 8;
   text-align: center;
-}
-
-.collab {
-  font-weight: 400;
-  font-size: medium;
-  text-align:center;
-}
-
-.signup2 {
-  @media (min-width: 1024px) {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  @media (min-width: 1441px) {
-    padding-left: 29% ;
-    padding-right: 29%;
-  }
 }
 
 .signup3 {
@@ -111,8 +108,8 @@ body {
 }
 
 .section:first-of-type {
-  margin-top: 4em;
-  padding-top: 2em;
+//  margin-top: 4em;
+  padding-top: 3em;
 }
 
 .subheading {
@@ -120,7 +117,7 @@ body {
   font-weight: 300;
   text-align: center;
   font-size: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .cta-button {
@@ -160,10 +157,9 @@ body {
   border-radius: 10px;
 }
 
-.section.personas a.persona-link:hover {
-  color: #d2e3f8;
+a.persona-link:hover {
   text-decoration: none;
-  background-color: #285aaa;
+  @include pulse()
 }
 
 .section.features a.feature-link {
@@ -179,57 +175,31 @@ body {
   background-color: #eee;
 }
 
-.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover,
-.navbar-inverse .navbar-nav .nav-link {
-  color: #efefef;
-  font-weight: 500;
-}
-
-.nav-item {
-  @media (min-width: 992px) {
-    text-align: center;
-    margin-right: 2em;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-}
-
-.dropdown-toggle:after {
-  display: none;
-}
-
-.dropdown-menu:after {
-  position: absolute;
-  left: 30px;
-  top: -16px;
-  display: block;
-  content: "\f0d8";
-  height: 16px;
-  width: 18px;
-  color: #fff;
-  font-family: 'FontAwesome';
-  font-size: 40px;
-  line-height: 26px;
-}
-
 .heading {
   margin: .5em auto;
   margin-bottom: .25em;
 }
 
-.section.personas {
-  margin: 0;
-  padding: 4em 0;
-  background-color: #3273dc;
-  color: #d2e3f8;
+.features-heading {
+  margin: 1.25em auto;
+  margin-bottom: .25em;
 }
 
-.persona-title {
-  margin: 1em 0;
+.features-signup {
+  background-color: #3273dc;
   color: #fff;
-  font-weight: 300;
+}
+
+.features-signup:hover {
+  background-color: #fff !important;
+  color: #3273dc !important;
+}
+
+.section.personas {
+  margin: 0;
+  padding-bottom: 2em;
+  background-color: #fafafa;
+  color: #d2e3f8;
 }
 
 .persona-icon {
@@ -240,12 +210,6 @@ body {
   color: #285aaa;
 }
 
-.personas-header {
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 1em;
-}
-
 .section.security {
   background-color: #222;
   color: #efefef;
@@ -253,7 +217,6 @@ body {
   padding: 6em 0;
   width: 100%;
 }
-
 
 .section.security .sec-lo {
   color: #ccc;
@@ -301,7 +264,7 @@ body {
   padding-bottom: 2em;
 
   &:first-of-type {
-    padding-top: 4em;
+    padding-top: 8em;
     background-color: $blue-l2;
     color: #fff;
   }
@@ -347,12 +310,6 @@ body {
   border: 0;
 }
 
-.dropdown-item {
-  font-weight: 300;
-  font-size: 85%;
-  margin: .5em auto;
-}
-
 .feature-disabled {
   text-decoration: line-through;
   color: #d2e3f8;
@@ -360,7 +317,7 @@ body {
 
 .persona-bg-features {
   background: $blue-l3;
-  height: 220px;
+  height: 250px;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center center;
@@ -370,7 +327,7 @@ body {
   background-size: cover;
 
   @media (min-width: 992px) {
-    height: 220px;
+    height: 250px;
   }
 }
 
@@ -426,52 +383,13 @@ body {
   border-radius: 10px;
 }
 
-.tagline {
-  position: absolute;
-  top: 350px;
-  width: 405px;
-  color: #fff;
-  margin-right: 150px;
-
-  &.tagline-alt {
-    right: 0;
-    text-align: right;
-  }
-
-  p {
-    text-shadow: 1px 1px 2px black;
-  }
-
-  h3 {
-    margin-bottom: 1em;
-  }
-
-  .btn-ih {
-    margin-top: 1em;
-    padding: 1em 3em;
-    text-transform: uppercase;
-  }
-
-  @media (max-width: 992px) {
-    width: 90%;
-    text-align: center !important;
-    position: relative;
-    top: 30px;
-    margin-top: 1em;
-    margin: auto auto;
-    padding: 4em 1em;
-    background-color: #14325a;
-    border-radius: 10px;
-  }
-}
-
 .tagline2 {
   top: 0px;
   color: #fff;
   text-align: center !important;
   position: relative;
 
-  &.tagline-alt {
+  &.tagline2-alt {
     right: 0;
     text-align: right;
   }
@@ -489,28 +407,11 @@ body {
     padding: 1em 3em;
     text-transform: uppercase;
   }
-
-  @media (max-width: 992px) {
-    width: 90%;
-    text-align: center !important;
-    position: relative;
-    top: 20px;
-    margin-top: 1em;
-    margin: auto auto;
-    padding: 1em 1em;
-    background-color: #14325a;
-    border-radius: 10px;
-  }
 }
-
 
 .contact-details {
   color: #000;
   margin-bottom: .25em;
-}
-
-.navbar-inverse .navbar-toggler {
-  border-color: transparent;
 }
 
 .lead-form {

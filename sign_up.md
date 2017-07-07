@@ -6,7 +6,7 @@ permalink: /signup
 <div class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 text-center text-lg-left">
+      <div class="col-lg-4 signup-text text-center text-lg-left">
         <h1 class="mt-5">Download infinity For Free</h1>
         <p>
           Manage your caseload, tasks and seamlessly handover with your team.
@@ -25,7 +25,7 @@ permalink: /signup
           Feel free to get in touch using the form below
         </p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-8 signup-img">
         <img src="/assets/images/framed-devices.png" class="img-fluid mt-5">
       </div>
     </div>

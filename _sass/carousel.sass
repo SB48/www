@@ -1,68 +1,109 @@
 //carousel sass
+  +media-breakpoint-down(md)
+    margin-left: 4px !important
+    margin-right: 0 !important
+  +media-breakpoint-up (md)
+    width: 960px
+    max-width: 100%
+  +media-breakpoint-up(lg)
+    width: 1140px
+    max-width: 100%
 
+.hero-img
+  margin-bottom: -3em
+  margin-top: -3em
+  height: 480px
+  width: 0 auto
 
 .hero-screenshot
   display: block
 
-  @include media-breakpoint-up(md)
+  +media-breakpoint-up(md)
     display: none
 
 .device-carousel
   display: none
 
-  @include media-breakpoint-up(md)
+  +media-breakpoint-up(md)
     display: block
-
 
 .hideimage
   display: block
 
-  @include media-breakpoint-down(md)
-    display:none
+  +media-breakpoint-down(md)
+    display: none
     visibility: hidden
 
+.carousel-inner
+  margin: 0 auto
 
 .carousel-button
-  background-color: #ffffff
-  color: #3273dc
+  background-color: #285aaa
+  color: #ffffff
+  border-color: #ffffff
   font-family: inherit
-  padding: 5px 7px !important
-  font-weight: 400 !important
-  font-size: medium
+  padding: 3px 12px !important
+  padding-top: 4px !important
+  padding-bottom: 3px !important
+  padding-left: 12px !important
+  padding-right: 12px !important
+  font-weight: 200 !important
+  font-size: small
   -webkit-transition-duration: 0.4s
   transition-duration: 0.4s
+  &:focus
+    outline-style: none !important
+    box-shadow: none !important
+  &:hover
+    background-color: #ffffff
+    color: #285aaa
+    border-color: #ffffff
 
+.iphone-btn
+  margin-right: -.3em
+  border-radius: 5px 0px 0px 5px
+  &:focus
+    outline-style: none !important
+    box-shadow: none !important
+
+.ipad-btn
+  border-radius: 0px 5px 5px 0px
+  &:focus
+    outline-style: none !important
+    box-shadow: none !important
 
 .carouselExampleIndicators
-  @media (min-width: 550px)
+  @include media-breakpoint-up (md)
     background-image: url(assets/images/iphone_tasks.png)
-
-
-
-.carousel-button:hover
-  border-color: #3273dc
-  border-style: solid
-
 
 .carousel-buttons
   text-align: center
-
+  padding-bottom: ($spacer/2)
 
 .carousel-image
   height: 391.11px
-  margin: auto
-
+  margin: 0 auto
 
 .iphone-image
   width: 100%
-  max-width: 220px
+  max-width: 230px
+  display: block
 
 .ipad-image
   max-width: 420px
-
+  margin: 0 auto !important
+  text-align: center !important
 
 .desktop-image
   height: 391.11px
   text-align: center
   float: none
   margin: auto
+
+.ipad1
+  +media-breakpoint-down(md)
+    padding-left: .7em
+
+.ipad2
+  +media-breakpoint-down(md)
+    padding-left: 3em

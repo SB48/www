@@ -1,0 +1,120 @@
+.nav-container
+  +make-container
+  +media-breakpoint-down(md)
+    margin-left: 4px !important
+    margin-right: 0 !important
+  +media-breakpoint-up (md)
+    width: 960px
+    max-width: 100%
+  +media-breakpoint-up(lg)
+    width: 1140px
+    max-width: 100%
+
+.nav-col
+  +make-col-ready
+  +make-col (6)
+  +media-breakpoint-up (md)
+    +make-col (6)
+
+.nav-col2
+  +media-breakpoint-down (md)
+    +make-col-ready
+    +make-col (6)
+
+.nav-lg-col
+  +make-col-ready
+  +make-col (12)
+  +media-breakpoint-up (lg)
+    +make-col (6)
+
+.navbar-brand
+  +media-breakpoint-down(md)
+    float: left
+
+.navbar-toggler-icon
+  +media-breakpoint-down(md)
+    float: right
+
+.nav-row
+  +make-row
+  margin-right: -5px
+
+.top-nav
+  padding-top: 20px
+  padding-bottom: 15px
+  background-color: #3273dc
+  box-shadow: 0 0 40px rgba(37,45,51, .5)
+//  background-color: #14325a
+//  color: white
+
+.btn-signup
+  background-color: #3fb353 !important
+  color: #efefef !important
+
+.btn-ih
+  color: #3273dc !important
+  background-color: #fff !important
+
+.btn-ih-alt
+  background-color: #3273dc !important
+  color: #fff !important
+
+.section.top-section
+  margin-bottom: 3em
+  background-color: #285aaa
+
+.navbar-inverse .navbar-nav .nav-link:focus .navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link
+  color: #efefef
+  font-weight: 500
+
+.nav-full
+  +media-breakpoint-down (md)
+    width: 100%
+    text-align: center
+
+.nav-hover:hover
+  color: #14325a
+
+.nav-item
+  +media-breakpoint-up (md)
+    text-align: center
+    margin-right: 2em
+
+    &:last-child
+      margin-right: 0
+
+.dropdown-toggle:after
+  display: none
+
+.dropdown-menu:after
+  position: absolute
+  left: 30px
+  top: -16px
+  display: block
+  content: "\f0d8"
+  height: 16px
+  width: 18px
+  color: #fff
+  font-family: 'FontAwesome'
+  font-size: 40px
+  line-height: 26px
+
+.navbar-inverse .navbar-toggler
+  border-color: transparent
+
+.dropdown-item
+  font-weight: 300
+  font-size: 85%
+  margin: .5em auto
+
+.nav-button
+  @media (max-width: 991px) and (min-width: 426px)
+    margin-left: 20%
+    margin-right: 20%
+
+.btn-signup
+  border-style: solid
+  border-color: transparent
+  &:hover
+    background-color: #14325a !important

@@ -1,0 +1,192 @@
+
+@mixin transition-all()
+    -webkit-transition: all .2s
+    -moz-transition: all .2s
+    transition: all .2s
+
+@mixin background-cover()
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+
+.post-meta:hover
+    .underline-style:after
+        transition: width .5s ease, background-color .5s ease
+        width: 100%
+        background: black
+
+.news
+    padding-bottom: 2em
+    +make-container
+    +media-breakpoint-down(md)
+        margin-left: 4px !important
+        margin-right: 0 !important
+    +media-breakpoint-up (md)
+        width: 960px
+        max-width: 100%
+    +media-breakpoint-up(lg)
+        width: 1140px
+        max-width: 100%
+
+blockquote
+    font-style: italic
+    color: #285aaa
+
+.section-heading
+    font-size: 36px
+    font-weight: 700
+    margin-top: 60px
+
+.caption
+    font-size: 14px
+    font-style: italic
+    display: block
+    margin: 0
+    padding: 10px
+    text-align: center
+    border-bottom-right-radius: 5px
+    border-bottom-left-radius: 5px
+
+::selection
+    color: white
+    background: #3273dc
+    text-shadow: none
+
+img::selection
+    color: white
+    background: transparent
+
+img::-moz-selection
+    color: white
+    background: transparent
+
+::-moz-selection
+    color: white
+    background: #3273dc
+    text-shadow: none
+
+::selection
+    color: white
+    background: #3273dc
+    text-shadow: none
+
+
+img::selection
+    color: white
+    background: transparent
+
+
+img::-moz-selection
+    color: white
+    background: transparent
+
+body
+    -webkit-tap-highlight-color: #3273dc
+
+a
+    color: #14325a
+    @include transition-all
+    &:hover,
+    &:focus
+        color: #3273dc
+
+.post-preview
+    text-align: center
+    > a
+        color: #14325a
+        &:hover,
+        &:focus
+            text-decoration: none
+            color: #285aaa
+        > .post-title
+            font-size: 25px
+            margin-top: 30px
+            margin-bottom: 10px
+        > .post-subtitle
+            font-size: 18px
+            font-weight: 300
+            margin: 0
+            margin-bottom: 10px
+    > .post-meta
+        font-size: 13px
+        font-style: italic
+        margin-top: 0
+        color: #285aaa
+        > a
+            text-decoration: none
+            color: #14325a
+            &:hover,
+            &:focus
+                text-decoration: underline
+                color: #3273dc
+    @media only screen and (min-width: 768px)
+        > a
+            > .post-title
+                font-size: 38px
+            > .post-subtitle
+                font-size: 25px
+        > .post-meta
+            font-size: 18px
+
+.masthead
+    margin-bottom: 40px
+    background: no-repeat center center
+    background-color: #285aaa
+    background-attachment: scroll
+    @include background-cover
+    height: 290px
+    @media only screen and (min-width: 768px)
+        height: 350px
+    .site-heading,
+    .post-heading,
+    .page-heading
+        padding: 8.5em 0 50px
+        color: white
+        @media only screen and (min-width: 768px)
+            padding: 115px 0
+    .archive-heading
+        padding: 9.5em 0 50px
+        color: white
+        @media only screen and (min-width: 768px)
+            padding: 10.5em 0
+    .site-heading,
+    .archive-heading,
+    .page-heading
+        text-align: center
+        h1
+            font-size: 50px
+            margin-top: 0
+        .subheading
+            font-size: 15px
+            font-weight: 300
+            line-height: 1.1
+            display: block
+            margin: 10px 0 0
+        @media only screen and (min-width: 768px)
+            h1
+                font-size: 80px
+            .subheading
+                font-size: 25px
+    .post-heading
+        h1
+            font-size: 35px
+        .subheading,
+        .meta
+            line-height: 1.1
+            display: block
+        .subheading
+            font-size: 24px
+            font-weight: 600
+            margin: 10px 0 30px
+        .meta
+            font-size: 20px
+            font-weight: 300
+            font-style: italic
+            a
+                color: white
+        @media only screen and (min-width: 768px)
+            h1
+                font-size: 55px
+            .subheading
+                font-size: 30px

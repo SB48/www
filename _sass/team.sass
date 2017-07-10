@@ -44,7 +44,6 @@
   +media-breakpoint-up(sm)
     +make-col(12)
 
-
 .team-social
   color: #999999
   font-size: 1.5em
@@ -68,13 +67,24 @@
     padding-top: 3em
     text-align: left !important
 
-//.under-line
-  margin-top: -.5em
-  width: 95%
-  text-align: center
+.underline-style
+  display: inline-block
   color: black
-  margin-bottom: -.1em
-  visibility: hidden
-  &hover
-    visibility: visible
-    transition-delay: .5s
+  text-decoration: none !important
+
+.underline-style:hover
+  color: black !important
+
+.team-content:hover
+  .underline-style:after
+    transition: width .5s ease, background-color .5s ease
+    width: 100%
+    background: black
+
+.underline-style:after
+  content: ''
+  display: table
+  margin-bottom: 2em
+  height: 3px
+  width: 0px
+  background: transparent

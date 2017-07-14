@@ -66,5 +66,5 @@ layout: default
         </div>
     </article>
 
-    <hr>
+
 </div>

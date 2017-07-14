@@ -35,12 +35,11 @@ layout: default
                 </div>
                 <div class="continue-link">
                   <a href="/post" class="read-more underline-style">
-                    continue reading
+                    Continue reading <i class="fa fa-angle-right"></i>
                   </a>
                 </div>                  
             </a>           
         </div>
-        <hr>
         <!-- Pager -->
         <!--div class= "clearfix">
             <a class= "btn btn-secondary float-right" href= "/archive">Older Posts &rarr;</a>

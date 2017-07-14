@@ -19,10 +19,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="container-fluid signup2">
   <div class="row">
     <div class="col-12 text-center collab">
-      Transform your team today
+      <p class="text underline-style">
+        Transform your team today
+      </p>
     </div>
     <div class="col-12 text-center">
-      <a href="/signup" class="btn btn-signup signup2-button">Sign Up Free</a>
+      <a href="/signup" class="btn btn-signup signup2-button">Sign up free</a>
     </div>
   </div>
 </div>

@@ -10,28 +10,45 @@
     -o-background-size: cover
     background-size: cover
 
-.post-meta:hover
+.continue-link:hover
     .underline-style:after
-        transition: width .5s ease, background-color .5s ease
-        width: 100%
-        background: black
+        +media-breakpoint-up (sm)
+            transition: width .5s ease, background-color .5s ease
+            width: 100%
+            background: black
 
 .news
     padding-bottom: 2em
     +make-container
-    +media-breakpoint-down(md)
-        margin-left: 4px !important
-        margin-right: 0 !important
     +media-breakpoint-up (md)
         width: 960px
         max-width: 100%
     +media-breakpoint-up(lg)
-        width: 1140px
+        width: 730px
         max-width: 100%
 
-blockquote
-    font-style: italic
+.news-title-container
+    +make-container
+    +media-breakpoint-up (md)
+        width: 960px
+        max-width: 100%
+    +media-breakpoint-up(lg)
+        width: 730px
+        max-width: 100%
+
+.quote
     color: #285aaa
+    font-weight: 200
+    padding-left: 1rem
+    margin-bottom: .5rem
+    font-size: 1.25rem
+
+.quote-source
+    text-align: left
+    padding-left: 1rem
+
+.quote-border
+    border-left: .25rem solid #eceeef
 
 .section-heading
     font-size: 36px
@@ -57,33 +74,6 @@ img::selection
     color: white
     background: transparent
 
-img::-moz-selection
-    color: white
-    background: transparent
-
-::-moz-selection
-    color: white
-    background: #3273dc
-    text-shadow: none
-
-::selection
-    color: white
-    background: #3273dc
-    text-shadow: none
-
-
-img::selection
-    color: white
-    background: transparent
-
-
-img::-moz-selection
-    color: white
-    background: transparent
-
-body
-    -webkit-tap-highlight-color: #3273dc
-
 a
     color: #14325a
     @include transition-all
@@ -91,8 +81,15 @@ a
     &:focus
         color: #3273dc
 
+
+.news-img
+    width: 100%
+    text-align: left
+    height: auto
+    margin-bottom: 20px
+
 .post-preview
-    text-align: center
+    text-align: left
     > a
         color: #14325a
         &:hover,
@@ -100,36 +97,45 @@ a
             text-decoration: none
             color: #285aaa
         > .post-title
-            font-size: 25px
-            margin-top: 30px
-            margin-bottom: 10px
-        > .post-subtitle
-            font-size: 18px
+            font-size: 23px
             font-weight: 300
-            margin: 0
-            margin-bottom: 10px
-    > .post-meta
-        font-size: 13px
-        font-style: italic
-        margin-top: 0
-        color: #285aaa
+            color: #464a4c
+    .post-excerpt
+        margin: 0
+        line-height: 1rem
+        color: #777984
+        font-size: 12px
+        font-weight: 300
+    .post-meta, .read-more
+        text-align: left
+        font-size: 10px
+        font-weight: 300
+        color: #292b2c
         > a
             text-decoration: none
             color: #14325a
             &:hover,
             &:focus
-                text-decoration: underline
-                color: #3273dc
+                text-decoration: none
+                color: #292b2c
     @media only screen and (min-width: 768px)
         > a
             > .post-title
-                font-size: 38px
-            > .post-subtitle
-                font-size: 25px
-        > .post-meta
-            font-size: 18px
+                margin-top: 1em
+                font-size: 30px
+        .post-excerpt
+            line-height: 1.5rem
+            font-size: 16px
+            font-weight: 300px
+        .post-meta
+            font-size: 12px
+            margin-bottom: 25px
+        .read-more
+            padding-top: 25px
+            font-size: 12px
+            margin-bottom: -1em
 
-.masthead
+.news-header
     margin-bottom: 40px
     background: no-repeat center center
     background-color: #285aaa
@@ -138,18 +144,22 @@ a
     height: 290px
     @media only screen and (min-width: 768px)
         height: 350px
+    +media-breakpoint-down (sm)
+        height: 250px
     .site-heading,
     .post-heading,
     .page-heading
-        padding: 8.5em 0 50px
+        padding: 7em 0 50px
         color: white
         @media only screen and (min-width: 768px)
             padding: 115px 0
+        +media-breakpoint-down (sm)
+            padding: 6.5em 0 50px
     .archive-heading
         padding: 9.5em 0 50px
         color: white
         @media only screen and (min-width: 768px)
-            padding: 10.5em 0
+            padding: 7.5em 0
     .site-heading,
     .archive-heading,
     .page-heading
@@ -157,6 +167,10 @@ a
         h1
             font-size: 50px
             margin-top: 0
+    .site-heading
+        h1
+            +media-breakpoint-down (sm)
+                font-size: 40px
         .subheading
             font-size: 15px
             font-weight: 300
@@ -169,24 +183,21 @@ a
             .subheading
                 font-size: 25px
     .post-heading
+        text-align: center
+        +media-breakpoint-up (lg)
+            padding-top: 10.5em
         h1
-            font-size: 35px
-        .subheading,
-        .meta
-            line-height: 1.1
-            display: block
-        .subheading
-            font-size: 24px
-            font-weight: 600
-            margin: 10px 0 30px
-        .meta
             font-size: 20px
             font-weight: 300
-            font-style: italic
+        .meta
+            font-size: 10px
+            font-weight: 300
+            line-height: 1.1
+            display: block
             a
                 color: white
         @media only screen and (min-width: 768px)
             h1
-                font-size: 55px
+                font-size: 35px
             .subheading
-                font-size: 30px
+                font-size: 20px

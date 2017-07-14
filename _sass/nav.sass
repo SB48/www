@@ -1,7 +1,8 @@
 .nav-container
   +make-container
   +media-breakpoint-down(md)
-    margin-left: 4px !important
+    padding: 0 !important
+    margin-left: 10px !important
     margin-right: 0 !important
   +media-breakpoint-up (md)
     width: 960px
@@ -10,6 +11,10 @@
     width: 1140px
     max-width: 100%
 
+.navbar, .navbar-toggleable-md, .navbar-inverse, .fixed-top, .top-nav
+  @media (max-width: 570px)
+    margin-right: -1em !important
+
 .nav-col
   +make-col-ready
   +make-col (6)
@@ -17,6 +22,7 @@
     +make-col (6)
 
 .nav-col2
+  margin-right: -1em
   +media-breakpoint-down (md)
     +make-col-ready
     +make-col (6)
@@ -40,16 +46,26 @@
   margin-right: -5px
 
 .top-nav
-  padding-top: 20px
+  padding-top: 18px
   padding-bottom: 15px
+  +media-breakpoint-down (md)
+    padding-top: 10px
+    padding-bottom: 7px
   background-color: #3273dc
   box-shadow: 0 0 40px rgba(37,45,51, .5)
-//  background-color: #14325a
-//  color: white
+
+.section:first-of-type
+  padding-top: 3em
+  +media-breakpoint-down (md)
+    padding-top: 2.5em
 
 .btn-signup
   background-color: #3fb353 !important
-  color: #efefef !important
+  color: #fff !important
+  border-style: solid
+  border-color: transparent
+  &:hover
+    background-color: #14325a !important
 
 .btn-ih
   color: #3273dc !important
@@ -113,8 +129,7 @@
     margin-left: 20%
     margin-right: 20%
 
-.btn-signup
-  border-style: solid
-  border-color: transparent
-  &:hover
-    background-color: #14325a !important
+.nav-logo
+  height: 30px
+  +media-breakpoint-down(sm)
+    height: 22px

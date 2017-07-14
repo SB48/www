@@ -6,7 +6,7 @@ layout: default
   <div class="container">
   <h1 class="text-center">
     <p class="m-5">
-      <i class="fa fa-5x fa-handshake-o"></i>
+      <i class="fa fa-5x fa-handshake-o handshake"></i>
     </p>
     Careers
   </h1>

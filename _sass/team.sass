@@ -1,7 +1,9 @@
-.team
-  +make-container
+.section.about
+  +media-breakpoint-up (sm)
+    margin-top: 2em
 
 .team
+  +make-container
   +media-breakpoint-up (sm)
     margin-left: 1em
   +media-breakpoint-up (md)
@@ -24,6 +26,23 @@
 .team-row
   +make-row
 
+.team-advisors, .team-head
+  font-size: 1.1rem
+  cursor: default
+  +make-col-ready
+  +make-col(12)
+
+.directors-link
+  font-size: 1.1rem
+
+.team-advisors
+  text-align: center
+  font-weight: 200
+
+.team-head
+  text-align: left
+  font-weight: 250
+
 .team-picname
   +make-col-ready
   +make-col(12)
@@ -31,18 +50,41 @@
     +make-col(4)
 
 .team-pic
+  text-align: center
   +make-col-ready
   +make-col(6)
   +media-breakpoint-up(sm)
     +make-col(12)
 
+
+.team-graphic
+  text-align: center
+  background-color: #3273dc
+  width: 10em
+  height: 10em
+  border-radius: 8%
+  margin: 0 auto
+
+.image-overlay
+  position: relative
+  width: 100%
+
+.team-graphic-text
+  text-align: center
+  margin-top: 1.8em
+  color: #fafafa
+
 .team-text
-  padding-top: 1em
-  font-weight: 100
+  text-align: center
+  font-size: 1.1rem
+  font-weight: 200
   +make-col-ready
   +make-col(6)
   +media-breakpoint-up(sm)
     +make-col(12)
+  +media-breakpoint-down (sm)
+    display: flex
+    vertical-align: middle
 
 .team-social
   color: #999999
@@ -60,31 +102,29 @@
   border-radius: 8%
 
 .team-link
-  color: black
-  text-decoration: none
-  text-align: center
-  @media (max-width: 575px)
-    padding-top: 3em
-    text-align: left !important
-
-.underline-style
-  display: inline-block
-  color: black
-  text-decoration: none !important
-
-.underline-style:hover
   color: black !important
+  text-decoration: none !important
+  text-align: center
+  padding-top: 1em
+  @media (max-width: 430px)
+    text-align: left !important
+    //padding-top: 3em
+
+.team-name
+  margin-bottom: .2em !important
+  +media-breakpoint-up (sm)
+    margin-top: .3em
 
 .team-content:hover
   .underline-style:after
-    transition: width .5s ease, background-color .5s ease
-    width: 100%
-    background: black
+    +media-breakpoint-up (sm)
+      transition: width .5s ease, background-color .5s ease
+      width: 100%
+      background: black
 
-.underline-style:after
-  content: ''
-  display: table
-  margin-bottom: 2em
-  height: 3px
-  width: 0px
-  background: transparent
+.directors:hover
+  .underline-style:after
+    +media-breakpoint-up (sm)
+      transition: width .5s ease, background-color .5s ease
+      width: 100%
+      background: black

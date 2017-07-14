@@ -3,10 +3,10 @@ layout: default
 permalink: /signup
 ---
 
-<div class="section">
-  <div class="container">
+<div class="section signup-page">
+  <div class="signup-container">
     <div class="row">
-      <div class="col-lg-4 signup-text text-center text-lg-left">
+      <div class="col-lg-6 signup-text text-center text-lg-left">
         <h1 class="mt-5">Download infinity For Free</h1>
         <p>
           Manage your caseload, tasks and seamlessly handover with your team.
@@ -25,8 +25,10 @@ permalink: /signup
           Feel free to get in touch using the form below
         </p>
       </div>
-      <div class="col-lg-8 signup-img">
-        <img src="/assets/images/framed-devices.png" class="img-fluid mt-5">
+      <div class="col-lg-6">
+        <div class="signup-video-padding">
+          <iframe src="https://player.vimeo.com/video/225577809" width="640" height="853" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="signup-video"></iframe>
+        </div>
       </div>
     </div>
   </div>

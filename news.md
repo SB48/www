@@ -4,71 +4,46 @@ layout: default
 <br>
 
 <!-- Page Header -->
-<div class="masthead">
-    <div class="container">
+<div class="news-header">
+    <div class="news-title-container">
         <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+            <div class="col-12 text-center">
                 <div class="site-heading">
-                    <h1>Infinity News</h1>
-                    <span class="subheading">Updates and Recent Developments from the Infinity Health Team</span>
+                    <h1>News</h1>
+                    <span class="subheading">Updates and opinion from Infinity Health</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
 <div class="news">
-<div class= "row">
+  <div class= "row">
     <div class= "col-lg-12">
+
         <div class= "post-preview">
             <a href= "/post">
                 <h2 class= "post-title">
-                    Man must explore, and this is exploration at its greatest
+                    Infinity Health launches Infinity, collaboration and task management app; aims to modernise healthcare teams.
                 </h2>
-                <h3 class= "post-subtitle">
-                    Problems look mighty small from 150 miles up
-                </h3>
-            </a>
-            <p class= "post-meta">Posted by <a href="/about" class="underline-style">Infinity Health</a> on September 24, 2017</p>
-        </div>
-        <hr>
-        <div class= "post-preview">
-            <a href= "/post">
-                <h2 class= "post-title">
-                    I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                </h2>
-            </a>
-            <p class= "post-meta">Posted by <a href="/about" class="underline-style">Infinity Health</a> on September 18, 2017</p>
-        </div>
-        <hr>
-        <div class= "post-preview">
-            <a href= "/post">
-                <h2 class= "post-title">
-                    Science has not yet mastered prophecy
-                </h2>
-                <h3 class= "post-subtitle">
-                    We predict too much for the next year and yet far too little for the next ten.
-                </h3>
-            </a>
-            <p class= "post-meta" >Posted by <a href="/about" class="underline-style">Infinity Health</a> on August 24, 2017</p>
-        </div>
-        <hr>
-        <div class= "post-preview">
-            <a href= "/post">
-                <h2 class= "post-title">
-                    Failure is not an option
-                </h2>
-                <h3 class= "post-subtitle">
-                    Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                </h3>
-            </a>
-            <p class= "post-meta">Posted by <a href="/about" class="underline-style">Infinity Health</a> on July 8, 2017</p>
+                <p class= "post-meta">
+                  Posted by <a href="/about">Infinity Health</a> on April 27, 2017
+                </p>
+                <img src="assets/images/devices.png" class="news-img">
+                <div class= "post-excerpt">
+                  Infinity Health, a health-tech startup delivering secure task management solutions for healthcare professionals, today announced the launch of Infinity...
+                </div>
+                <div class="continue-link">
+                  <a href="/post" class="read-more underline-style">
+                    continue reading
+                  </a>
+                </div>                  
+            </a>           
         </div>
         <hr>
         <!-- Pager -->
-        <div class= "clearfix">
+        <!--div class= "clearfix">
             <a class= "btn btn-secondary float-right" href= "/archive">Older Posts &rarr;</a>
-        </div>
+        </div-->
     </div>
 </div>
